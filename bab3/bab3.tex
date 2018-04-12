@@ -1,0 +1,16 @@
+\chapter{DESAIN}
+\label{chapter:desain}
+
+\tab Pada bab ini akan dibahas tentang dasar perancangan sistem yang akan dibuat. Secara khusus akan dibahas mengenai deskripsi umum sistem, perancangan skenario dan arsitektur
+sistem.
+
+\section{Deskripsi Umum Sistem}
+\tab Tugas akhir ini disusun untuk menangani masalah \textit{monitoring} server dan \textit{computer single-board} dengan menggunakan pola \textit{publish-subscribe}. Pola ini dipilih agar pengguna dapat memilih perangkat mana yang ingin dipantau sehingga tidak semua perangkat terpantau oleh semua orang.\\
+\tab Proses \textit{monitoring} ini diawali dengan pengambilan informasi tiap-tiap server menggunakan SNMP \textit{monitoring tools}. Untuk komputer \textit{single-board} diberikan \textit{agent} untuk mengambil data hasil pemantauan. Kemudian pengguna, atau di sini dapat disebutkan sebagai administrator jaringan, dapat memilih saluran (\textit{subscribe}) \textit{server} atau komputer \textit{single-board} mana yang ingin ia pantau melalui sebuah \textit{agent} yang berupa \textit{web-socket}.\\ 
+\tab Kemudian, \textit{agent} yang berupa web yang responsif ini akan melanjutkan permintaan ke sebuah \textit{middleware}. \textit{Middleware} yang telah terpola \textit{publish-subscribe} ini akan memproses permintaan tersebut. Kemudian perangkat yang terpilih akan memberikan informasinya (\textit{publish}) melalui \textit{middleware} dan diteruskan kembali ke \textit{agent} berupa notifikasi. Notifikasi ini dapat dilihat oleh admin. Selain itu, \textit{agent} juga mengirimkan notifikasi mengenai keadaan lingkungan dan \textit{server} Pusat Data ITS yang butuh penanganan langsung, seperti \textit{server time out}, suhu ruangan meningkat tajam, ke Telegram. Sehingga administrator bisa langsung bertindak cepat.
+
+\section{Perancangan}
+skjsdfbavekdnhkdfsnkd
+
+\section{Arsitektur Sistem}
+kljfnksjfjsklj
