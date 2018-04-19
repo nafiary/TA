@@ -1,4 +1,4 @@
-#!/home/nafianafia/Documents/TA/flaskr/venv/bin/python
+#!/home/nafianafia/Documents/TA/TA/flaskr/venv/bin/python
 
 import sys
 import getopt

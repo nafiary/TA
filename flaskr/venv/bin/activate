@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/nafianafia/Documents/TA/flaskr/venv"
+VIRTUAL_ENV="/home/nafianafia/Documents/TA/TA/flaskr/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
