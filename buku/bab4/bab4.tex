@@ -1,21 +1,26 @@
 \chapter{IMPLEMENTASI}
 \label{chapter:implementasi}
 
-Pada bab ini dijelaskan mengenai implementasi dari desain dan algoritma penyelesaian \problem{}.
+Pada bab ini dijelaskan mengenai implementasi \textit{publish-subscribe} pada rancang bangun sistem \textit{monitoring} perangkat di DPTSI ITS.
 
 \section{Lingkungan Implementasi}
-Lingkungan implementasi dalam pembuatan Tugas Akhir ini meliputi perangkat keras dan perangkat lunak yang digunakan untuk penyelesaian \problem{} adalah sebagai berikut:
+Lingkungan implementasi dalam pembuatan Tugas Akhir ini meliputi perangkat keras dan perangkat lunak yang digunakan untuk rancang bangun sistem \textit{monitoring} perangkat di DPTSI ITS dengan implementasi \textit{publish-subscribe} adalah sebagai berikut:
 
 \begin{enumerate}
 	\item Perangkat Keras:
 		\begin{itemize}
-			\item \textit{Processor} Intel(R) Core(TM) i3 - M 330 CPU @ 2.13GHz x 4 \item Memori 4 GB.
+			\item \textit{Processor} Intel(R) Core(TM) i5-4210U CPU @1.70GHz 64-bit dengan memori RAM 4 GB.
 		\end{itemize}
 	\item Perangkat Lunak:
 	\begin{itemize}
 		\item Sistem operasi Ubuntu 14.04 LTS 64 bit.
+		\item Rabbitmq, digunakan sebagai broker pada \textit{publish-subscribe}.
+		\item Flask, digunakan untuk membuat aplikasi sistem.
+		\item Nagios, digunakan untuk memantau server.
+		\item Telegram, digunakan sebagai media penerimaan notifikasi dari sistem.
 		\item \textit{Text editor} Sublime Text 3.
-		\item \textit{Compiler} g++ versi 4.3.2.
+		\item TeXstudio, digunakan untuk menyusun buku tugas akhir ini.
+		
 	\end{itemize}			
 \end{enumerate}
 
